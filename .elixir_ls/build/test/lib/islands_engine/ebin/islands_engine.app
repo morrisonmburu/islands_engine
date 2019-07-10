@@ -1,0 +1,11 @@
+{application,islands_engine,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"islands_engine"},
+              {modules,['Elixir.IslandsEngine',
+                        'Elixir.IslandsEngine.Application',
+                        'Elixir.Islands_engine.Coordinate',
+                        'Elixir.Islands_engine.Guesses',
+                        'Elixir.Islands_engine.Islands']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.IslandsEngine.Application',[]}}]}.
