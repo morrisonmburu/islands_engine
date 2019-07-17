@@ -3,6 +3,7 @@
               {description,"islands_engine"},
               {modules,['Elixir.IslandsEngine',
                         'Elixir.IslandsEngine.Application',
+                        'Elixir.Islands_engine.Board',
                         'Elixir.Islands_engine.Coordinate',
                         'Elixir.Islands_engine.Guesses',
                         'Elixir.Islands_engine.Islands']},
